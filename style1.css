@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+*{ margin: 0;}
+
+*{ 
+    font-size: 10px;
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+
+    font-size: 62.5%;
+}
+body{        
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.logo , header a{ color: white; }
+ .nav-bar{ 
+        padding: 1rem ;
+}
+
+.nav-bar .logo{
+    padding: 1rem;
+}
+
+
+ .nav-bar a:link ,
+ .nav-bar a:visited{
+    color: #f4f4f4;
+ }
+ 
+ 
+ .nav-bar a{
+       padding-bottom: 0.3rem;
+       
+       
+ }
+ .nav-bar a:hover{
+       border-bottom: 1px solid white;
+    
+ }
+ .header{
+    position: relative;
+ }
+ .header .nav-bar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    height: 5rem;
+    
+}
+
+
+
+
+ .nav-bar .logo{
+      float: left;
+      padding: 1rem;
+      
+     
+     
+      
+      
+       
+ }
+
+ .nav-bar .nav-items{  
+    float: right;
+   }
+
+   .nav-bar::after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+   .nav-bar .nav-item{
+    display: inline-block; 
+    list-style-type: none;
+    padding: 1.5rem;
+    
+    text-transform: uppercase;
+    
+    
+    
+}
+.nav-bar .nav-items{
+
+box-sizing: border-box;
+overflow: hidden;
+
+
+}
+
+
+
+
+.nav-bar a{
+font-size: 1.6rem;
+text-decoration: none;
+
+}
+p,li{
+font-size: 1.6rem;
+margin-bottom: 0.5em;
+letter-spacing: 0.1em;
+
+}
+h1,h2,h3{
+margin-bottom: 0.5em;
+letter-spacing: 0.15em;
+font-weight: 700;
+}
+                   
+
+                               /* ***********************utility class*************** */
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0px auto;
+
+   
+
+
+
+
+}
+.lg-heading{
+    font-size: 3rem;
+}
+
+.md-heading{
+    font-size: 2rem;
+    font-weight: 600; 
+}
+
+.text-red{
+    color: #e63946;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-black{
+    color: #333;
+}
+.trxt-grey{
+    color:#555;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: #e63946;
+    border-radius: 10rem;
+}
+
+.btn-primary:hover{
+    background: #40a345;
+}
+
+.btn-secondary{
+    border: 2px solid #e63946;
+    border-radius: 1.5em;
+    color: #fff;
+    
+
+   
+}
+
+.btn-secondary:hover{
+    background: #fcf3f2;
+}
+
+
+.bg-dark{
+    height: 9rem;
+    background-color: #263238;
+}                        
+
+.btn-shadow{
+    box-shadow: 5px 5px 10px 0px #263238af;
+}
+                       
+
+                   /* *******************header-content************************ */
+
+
+.header {    
+    
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)) ,url(C:\Users\Dell\Desktop\portfolio\html\about2.jpeg);
+   
+    
+        
+    background-position: center; 
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+    position: relative;
+    /* background-color: #fcf3f2; */
+    
+    
+}
+ 
+ header .container{
+    padding-bottom: 3rem;
+}
+
+
+.header .header-content{
+    /* background-color: #fff; */
+    border-radius: 2rem;
+    box-shadow: 10px 10px 10px 2px #33333360;
+    background: url(C:\Users\Dell\Desktop\portfolio\html\esan.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+                 
+ .header-content .writing{
+
+     margin-top: 10rem;
+     }
+     
+.writing{
+    padding-left: 2rem;
+}
+
+.writing a{
+    margin-top: 0;
+   
+}
+
+.writing .contact{
+    margin-left: 3rem;
+    
+}
+
+    .header-content .social-media{
+       
+        
+        margin-top: 13rem;
+    }
+    .header-content .social-media{
+    float: left;
+    width: 6%;
+  }
+  .header-content .writing{
+       float: left;
+       width: 60%;
+    }
+  .header-content .img-box{
+       float: left;
+       width: 28%;
+    }
+.header-content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-content img{
+    margin-top: 10rem;
+    object-fit: cover;
+    object-position: center;
+    height: 40rem;
+    width: 100%;
+}
+.social-media li i{
+    
+    font-size: 3rem;
+    padding: 2rem;
+    color: rgb(19, 15, 75);
+    
+}
+
+.social-media li{
+    list-style-type: none;
+
+
+}
+
+ .writing h1{
+    font-size: 6rem;
+    color: rgb(29, 25, 94);
+    
+    font-family: serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+ }
+
+ .writing p {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    
+ }
+
+
+                 /* **********************section-case****************************** */
+
+.sec{
+    /* background-color: #fcf3f2; */
+    /* background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)) ,url(C:\Users\Dell\Desktop\portfolio\html\edu1.jpeg); */
+    background-image:url(C:\Users\Dell\Desktop\portfolio\img\edu.jpeg);
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    padding-bottom: 5rem ;
+    
+}
+
+
+.box-wrapper{
+    padding: 1rem;
+    margin-top: 5rem;
+    /* border: 2px solid green; */
+   
+/*     
+     border-radius: 6rem;
+    background-color:#fff;
+    box-shadow: 5px 5px 10px 2px #263238; */
+
+}
+.sec .container{
+    margin-top: 5rem;
+    
+   
+    border-radius: 6rem;
+    background-color:#fff;
+    box-shadow: 5px 5px 10px 2px #26323865;
+
+}
+
+.sec .container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box-wrapper a{
+    margin-top: 3rem;
+    margin-left: 35rem;
+    
+}
+
+.box-wrapper h2{
+    padding-left: 2rem
+}
+
+
+ 
+section .container .box-wrapper a{
+    color: #fff;
+
+}
+
+.sec .box-wrapper{
+    float: left;
+    width: 60%;
+}
+
+.sec .img-box2{
+    float: right;
+    width: 30%;
+
+}
+.sec .lg-heading{
+    text-align: center;
+}
+
+
+
+
+.sec .img-box2 img{
+    border-radius: 50%;
+    margin-right: 20rem;
+    margin-top: 12rem;
+    box-shadow: 5px 5px 10px 4px #03030360;
+    height: 30rem;
+}
+
+
+
+
+
+          /* ***********************edu group************************ */
+.edu {
+    /* background-color: #fcf3f2; */
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(/html/education.avif); */
+    background-image: url(/html/edu\ 1.jpeg);
+    object-fit: cover;
+    object-position: center;
+}
+.edu  .container .school-btn{
+    color: #fff;
+    margin-right: 80%;
+    text-align: left;
+
+}
+.edu .container .collage-btn{
+    margin-left: 20%;
+    text-align: right;
+    color: #fff;
+    
+}
+.edu h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.edu .lg-heading{
+    font-size: 3.5rem;
+    padding-top: 3rem;
+}
+.edu .primary {
+   
+    padding: 5rem;
+}
+.edu .secondary{
+    
+    padding: 5rem;
+}
+
+.edu .primary .school{
+    float: left;
+    width: 49%;
+
+}
+
+.edu .primary img{
+    float: right;
+    width: 45%;
+    height: 50%;
+   
+    box-shadow: 0px 0px 10px 4px #03030360;
+    
+    
+}
+
+.edu .primary::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.edu .secondary .collage{
+    float: right;
+    width: 49%;
+
+}
+.edu .secondary img{
+    float: left;
+    width: 50%;
+    box-shadow: 5px 5px 10px 4px #03030360;
+}
+.edu .secondary::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.edu .primary .img{
+    height: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+.edu .secondary img{
+    height: 30rem;
+    object-position: center;
+    object-fit: cover;
+}
+
+.edu .secondary{
+    margin-top: 5rem;
+}
+
+       
+.edu .primary{
+    margin-top: 5rem;
+    
+   
+    border-radius: 6rem;
+    background-color:#fff;
+    box-shadow: 5px 5px 10px 2px #26323865;
+
+}
+.edu .secondary{
+    margin-top: 5rem;
+    
+   
+    border-radius: 6rem;
+    background-color:#fff;
+    box-shadow: 5px 5px 10px 2px #26323865;
+
+}
+                     
+
+
+
+
+
+
+
+                                /* ********************************skills section**********************  */
+ .skills-section{
+    
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background-color: #fcf3f2; 
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)) ,url(C:\Users\Dell\Desktop\portfolio\html\edu.jpeg);
+    
+    padding: 5rem 0;
+}
+
+.skills-section .lg-heading{
+    padding-bottom: 3%;
+    font-size: 3.5rem;
+}
+.skills-section .container{
+    
+    padding: 5rem;
+    border-radius: 6rem;
+    width: 80%;
+    background-color: #070606;
+    box-shadow: 8px 8px 10px 2px #00000063;
+    
+    
+    color: #fff;
+
+}
+
+  .skill {
+    margin-bottom: 3rem;
+  }
+  
+  .skill h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .skill-level {
+    height: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .skill-level-bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .html {
+    width: 90%;
+    background-color: #4CAF50;
+  }
+  
+  .css {
+    width: 80%;
+    background-color: #2196F3;
+  }
+  
+  .js {
+    width: 60%;
+    background-color: #f44336;
+  }
+  
+
+
+                   /* ****************************footer**************************  */
+
+footer{
+    
+   
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(C:\Users\Dell\Desktop\portfolio\img\contactimg.avif);
+    object-fit: cover;
+    object-position: center;
+}
+.footer{
+    
+
+
+    position: relative;
+    height: 100vh;
+
+}
+
+
+
+.footer  h2{
+    position: absolute;
+    top: 2rem;
+    left: 45%;
+    color: #fff;
+}
+footer .heading2{
+    position: absolute;
+    top: 6rem;
+    left: 42%;
+    font-size: 2rem;
+    font-weight: 400;
+}
+footer .heading3{
+    position: absolute;
+    top: 8rem;
+    left: 46%;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.footer-text p{
+    font-size: 2rem;
+}
+.footer .footer-wrapper .footer-text{
+    
+    position: absolute;
+    top: 40%;
+    background-color: white;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 10px 0px #0f14169a;
+    text-align: center;
+}
+.footer .footer-wrapper .footer-text i{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 4rem;
+    color: black;
+}
+.footer .footer-wrapper .footer-text{
+    float: left;
+    width: 40%;
+}
+.footer .footer-form{
+    float: right;
+    padding: 3rem;
+    border-radius: 3rem;
+    width: 25%;
+    background-color: #fff;
+    position: absolute;
+    height: 65%;
+    top: 20%;
+    left: 60%;
+    box-shadow: 5px 5px 10px 0 #07161db4;
+    
+}
+
+.footer-form input{
+    width: 40%;
+    height: 4rem;
+    border-radius: 5rem;
+    width: 90%;
+    background-color: #f4f4f4;
+    border: none;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 1.3rem;
+    margin-left: 2.3rem;
+    
+
+    
+}
+.footer-form input:hover{
+    
+    border: 1px solid green;
+}
+.footer-form textarea{
+
+    width: 40%;
+    height: 8rem;
+    border-radius: 2rem;
+    width: 90%;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: none;
+    margin-left: 2.5rem;
+    
+    
+
+}
+
+.footer-form a {
+    color: #fff;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
